@@ -6,3 +6,9 @@ import tabs          from './widgets/tabs';
 document.addEventListener("DOMContentLoaded", () => {
   kjs({ drawers, extendingForm, tabs }, document);
 });
+
+const states = {
+  unchecked: "unchecked",
+  checked: "checked",
+  intermediary: "intermediary"
+};
