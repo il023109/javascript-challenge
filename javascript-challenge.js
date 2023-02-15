@@ -41,6 +41,11 @@ document.addEventListener("DOMContentLoaded", function () {
     tabs: _tabs["default"]
   }, document);
 });
+var states = {
+  unchecked: "unchecked",
+  checked: "checked",
+  intermediary: "intermediary"
+};
 
 },{"./k":1,"./widgets/drawers":3,"./widgets/extending-form":4,"./widgets/tabs":5}],3:[function(require,module,exports){
 "use strict";
